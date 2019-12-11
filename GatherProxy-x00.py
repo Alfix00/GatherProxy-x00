@@ -51,7 +51,6 @@ async def countryProxy(proxies):
                         f.write(row)                                                                            #Write into the file
                     elif savePattern is False:
                         row = '%s:%d\n' % (proxy.host, proxy.port)
-                        list_proxy.append(proxy)
                         f.write(row)
     except KeyboardInterrupt:
         print("\nFinish!! All proxy was saved in proxy.txt file")
