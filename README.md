@@ -7,7 +7,7 @@ You can:
 
 *All proxies found will be saved in the appropriate text file. 
 
-<img src="https://gifyu.com/image/vBOt>
+<img src="https://gifyu.com/image/vBOt">
 
 [i] Instructions:
 
