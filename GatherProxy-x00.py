@@ -8,7 +8,8 @@ async def countryProxy(proxies):
     print("\n.-_-._-_/*[Alfix00's Gather proxy]*\.-_-._-_ \n")
     print("\t\t\t\t\t\t\t\t [https://github.com/Alfix00]")
     list_proxy = []
-    choice = str(input("Do you wanna some proxies from some specific country? \n\n\t[Y = YES] [other = Random]: ")).upper()
+    single_save = str(input("\nSave proxies into a single file? Choose yes if want a fast fresh list. \n\n\t [Y = Yes] [other = NO]: ")).upper()
+    choice = str(input("\nDo you wanna some proxies from some specific country? \n\n\t[Y = YES] [other = Random]: ")).upper()
     settings = False
     country = ""
     if choice == "Y":
@@ -40,7 +41,10 @@ async def countryProxy(proxies):
                 break
             geo = str(proxy._geo)
             geo_formatted = geo[geo.find("=")+1:geo.find(",")].replace("'","").replace(" ","")                  #Here i extract the proxy data, and get the country TAG
-            filename = "./proxy_folder/proxy_"+geo_formatted+".txt"                                             #Save file into the corrected file name
+            if single_save == "Y":
+                filename = "./proxies.txt"
+            else:
+                filename = "./proxy_folder/proxy_"+geo_formatted+".txt"                                             #Save file into the corrected file name
             if not settings or ((geo_formatted in list_proxy or geo_formatted == country) and settings):        #Boolean Expressions ftw!
                 with open(filename, 'a+') as f:
                     cont = cont + 1
