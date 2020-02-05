@@ -11,13 +11,12 @@ You can:
 
 [i] Instructions:
 
-- Clone the repository: https://github.com/constverum/ProxyBroker (not mine, we need this for search random proxies)
+- Clone and install the repository: https://github.com/constverum/ProxyBroker
 - terminal: $cd ProxyBroker
             $pip3 install -r requirements.txt     #For python 3.x
             $pip install -r requirements.txt      #For python 2.x
             $pip install aiodns                   #Make sure you have installed this.
-            
-- Use and import the 'proxybrowser' folder to the file 'GatherProxy-x00.py'
+ 
 - terminal: $python3 GatherProxy-x00.py
 
 
