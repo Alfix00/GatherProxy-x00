@@ -1,7 +1,7 @@
 # GatherProxy-x00
 This script was made with 'constverum/ProxyBroker'. With Gather-Proxy-x00 you can filter into proxies and choose to save the prefered into a txt file!
 
-<img src="https://s5.gifyu.com/images/asdasdasdasdsa.gif">
+<img src="https://camo.githubusercontent.com/a765560741dfcc84f4746a80fb783fed41178acb/68747470733a2f2f73352e67696679752e636f6d2f696d616765732f61736461736461736461736473612e676966">
 
 You can:
 - Choose to save random proxies.
